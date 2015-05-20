@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+   
+    <item android:id="@+id/add_guest"
+          android:title="@string/add_guest"
+          android:icon="@drawable/ic_menu_add"
+          android:showAsAction="never"/>
+    
+    <item android:id="@+id/allguests"
+          android:title="@string/list_all_guests"
+          android:icon="@drawable/list"
+          android:showAsAction="never"/>
+    
+    <item android:id="@+id/importdata"
+          android:title="@string/importdata"
+          android:icon="@drawable/list"
+          android:showAsAction="never"/>
+    
+    <item android:id="@+id/exportdata"
+          android:title="@string/exportdata"
+          android:icon="@drawable/list"
+          android:showAsAction="never"/>
+
+</menu>

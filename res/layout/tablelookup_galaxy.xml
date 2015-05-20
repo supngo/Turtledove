@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TableLookup" android:background="@drawable/bg_1">
+    
+    <TextView
+	    android:id="@+id/firstname_text"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="15dp"
+	    android:layout_marginTop="15dp"
+	    android:text="@string/firstname_prompt1"
+	    android:textColor="@color/white2"
+	    android:textSize="18sp" >
+	</TextView>
+	
+    <EditText
+	    android:id="@+id/firstname_input"
+	    android:layout_width="200dp"
+	    android:layout_height="40dp"
+	    android:layout_marginLeft="180dp"
+	    android:layout_marginTop="5dp"
+	    android:background="@drawable/textfield1"
+	    android:textColor="@color/black"
+	    android:inputType="textCapSentences"
+	    android:maxLength="20"
+	    android:selectAllOnFocus="true"
+	    android:textSize="22sp" />
+    
+    <TextView
+	    android:id="@+id/lastname_text"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="15dp"
+	    android:layout_marginTop="70dp"
+	    android:text="@string/lastname_prompt1"
+	    android:textColor="@color/white2"
+	    android:textSize="18sp" >
+	</TextView>
+	
+    <EditText
+	    android:id="@+id/lastname_input"
+	    android:layout_width="200dp"
+	    android:layout_height="40dp"
+	    android:layout_marginLeft="180dp"
+	    android:layout_marginTop="60dp"
+	    android:background="@drawable/textfield1"
+	    android:textColor="@color/black"
+	    android:inputType="textCapSentences"
+	    android:maxLength="20"
+	    android:selectAllOnFocus="true"
+	    android:textSize="22sp" />
+    
+    <com.naturecode.turtledove.utils.ResizableImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:contentDescription="@string/thumbnail1"
+        android:src="@drawable/footer" />
+
+    <ImageButton
+        android:id="@+id/submit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="44dp"
+        android:contentDescription="@string/app_name"
+        android:background="@drawable/submit_button" />
+
+</RelativeLayout>

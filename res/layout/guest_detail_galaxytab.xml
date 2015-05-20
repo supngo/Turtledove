@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_1"
+    tools:context=".GuestDetail" >
+
+	<TextView
+	    android:id="@+id/guest_detail_1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentTop="true"
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginTop="48dp"
+	    android:text="@string/guest_detail1"
+	    android:textColor="@color/white2"
+	    android:textSize="42sp"
+	    android:textStyle="bold" />
+
+	<TextView
+	    android:id="@+id/guest_detail_2"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentTop="true"
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginTop="140dp"
+	    android:text="@string/guest_detail2"
+	    android:textColor="@color/white2"
+	    android:textSize="42sp"
+	    android:textStyle="italic" />
+
+	<TextView
+	    android:id="@+id/guest_detail_3"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentTop="true"
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginTop="230dp"
+	    android:text="@string/guest_detail3"
+	    android:textColor="@color/white2"
+	    android:textSize="42sp"
+	    android:textStyle="italic" />
+
+	<TextView
+	    android:id="@+id/guest_detail_4"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	   	android:layout_alignParentTop="true"
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginTop="330dp"
+	    android:text="@string/guest_detail4"
+	    android:textColor="@color/white2"
+	    android:textSize="48sp"
+	    android:textStyle="bold" />
+
+	
+	<ImageButton
+        android:id="@+id/back"
+        android:layout_width="240dp"
+        android:layout_height="90dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+	    android:layout_marginLeft="79dp"
+	    android:layout_marginStart="200dp"
+	    android:layout_toLeftOf="@+id/guest_detail_4"
+        android:background="@drawable/back_button"
+        android:contentDescription="@string/app_name"
+        android:textSize="38sp"
+        android:textStyle="bold" />
+   
+	<ImageButton
+        android:id="@+id/home"
+        android:layout_width="270dp"
+        android:layout_height="90dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+	    android:layout_marginLeft="79dp"
+	    android:layout_marginStart="200dp"
+	    android:layout_toRightOf="@+id/guest_detail_4"
+        android:background="@drawable/home_button"
+        android:contentDescription="@string/app_name"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+</RelativeLayout>

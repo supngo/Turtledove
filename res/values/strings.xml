@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">Turtledove</string>
+    <string name="app_long_name">T &amp; H Reception</string>
+    <string name="menu_settings">Settings</string>
+    <string name="start_button">Start here</string>
+    <string name="submit_button">Submit</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_table_lookup">TableLookup</string>
+	<string name="thumbnail1">Thong and Huong</string>
+	<string name="firstname_prompt1">First Name:</string>
+	<string name="lastname_prompt1">And/or Last Name:</string>
+	<string name="firstname_prompt2">First Name:</string>
+	<string name="lastname_prompt2">Last Name:</string>
+	<string name="no_guest_prompt2">Number of Guests:</string>
+	<string name="table_no_prompt2">Table #:</string>
+	<string name="guestlist">Guest List</string>
+	<string name="no_record">No Record Found</string>
+	<string name="add_guest">Add Guest</string>
+	<string name="list_all_guests">List All Guests</string>
+	<string name="delete_all_guests">Delete All Guests</string>
+	<string name="add_guest_confirm">Testing</string>
+	<string name="guest_detail1">Guest Detail 1</string>
+	<string name="guest_detail2">Guest Detail 2</string>
+	<string name="guest_detail3">Guest Detail 3</string>
+	<string name="guest_detail4">Guest Detail 4</string>
+	<string name="sort_name">Sort by Name</string>
+	<string name="sort_table">Sort by Table</string>
+	<string name="importdata">Import from Dropbox</string>
+	<string name="exportdata">Export to Dropbox</string>
+	<string name="import_result">Some</string>
+</resources>

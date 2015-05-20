@@ -1,0 +1,149 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_1"
+    tools:context=".TableLookup" >
+
+    <TextView
+        android:id="@+id/firstname_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/firstname_prompt2"
+        android:textColor="@color/white2"
+        android:textSize="24sp" >
+    </TextView>
+
+    <EditText
+        android:id="@+id/firstname_input"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/textfield1"
+        android:inputType="textCapSentences"
+        android:maxLength="20"
+        android:selectAllOnFocus="true"
+        android:textColor="@color/black"
+        android:textSize="26sp" />
+
+    <TextView
+        android:id="@+id/lastname_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="75dp"
+        android:text="@string/lastname_prompt2"
+        android:textColor="@color/white2"
+        android:textSize="24sp" >
+    </TextView>
+
+    <EditText
+        android:id="@+id/lastname_input"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="71dp"
+        android:background="@drawable/textfield1"
+        android:inputType="textCapSentences"
+        android:maxLength="20"
+        android:selectAllOnFocus="true"
+        android:textColor="@color/black"
+        android:textSize="26sp" />
+
+    <TextView
+        android:id="@+id/no_guest_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="130dp"
+        android:text="@string/no_guest_prompt2"
+        android:textColor="@color/white2"
+        android:textSize="24sp" >
+    </TextView>
+
+    <EditText
+        android:id="@+id/no_guest_input"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="126dp"
+        android:background="@drawable/textfield1"
+        android:inputType="number"
+        android:maxLength="2"
+        android:selectAllOnFocus="true"
+        android:textColor="@color/black"
+        android:textSize="26sp" />
+
+    <TextView
+        android:id="@+id/table_no_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="185dp"
+        android:text="@string/table_no_prompt2"
+        android:textColor="@color/white2"
+        android:textSize="24sp" >
+    </TextView>
+
+    <EditText
+        android:id="@+id/table_no_input"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="181dp"
+        android:background="@drawable/textfield1"
+        android:inputType="number"
+        android:maxLength="2"
+        android:selectAllOnFocus="true"
+        android:textColor="@color/black"
+        android:textSize="26sp" />
+
+    <ImageButton
+        android:id="@+id/add_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="350dp"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/add_button"
+        android:contentDescription="@string/app_name"
+        android:textSize="24sp" >
+    </ImageButton>
+
+    <ImageButton
+        android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/back_button"
+        android:contentDescription="@string/app_name"
+        android:textSize="24sp" >
+    </ImageButton>
+
+    <com.naturecode.turtledove.utils.ResizableImageView
+        android:id="@+id/right_panel"
+        android:layout_width="320dp"
+        android:layout_height="720dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/add_guest"
+        android:src="@drawable/right_panel1" />
+
+    <TextView
+        android:id="@+id/add_guest_confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="40dp"
+        android:text="@string/add_guest_confirm"
+        android:textColor="#BCEE68"
+        android:textSize="26sp"
+        android:textStyle="bold|italic"
+        android:visibility="invisible" />
+
+</RelativeLayout>

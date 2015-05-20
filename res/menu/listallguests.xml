@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+   
+    <item android:id="@+id/list_guest_byname"
+          android:title="@string/sort_name"
+          android:icon="@drawable/list"
+          android:showAsAction="never"/>
+    
+    <item android:id="@+id/list_guest_bytable"
+          android:title="@string/sort_table"
+          android:icon="@drawable/list"
+          android:showAsAction="never"/>
+    
+    <item android:id="@+id/deleteallguests"
+          android:title="@string/delete_all_guests"
+          android:icon="@drawable/list"
+          android:showAsAction="never"/>
+
+</menu>

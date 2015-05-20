@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_1"
+    tools:context=".TableLookup" >
+
+    <TextView
+        android:id="@+id/firstname_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/firstname_prompt1"
+        android:textColor="@color/white2"
+        android:textSize="42sp" >
+    </TextView>
+
+    <EditText
+        android:id="@+id/firstname_input"
+        android:layout_width="400dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="400dp"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/textfield1"
+        android:inputType="textCapSentences"
+        android:maxLength="20"
+        android:selectAllOnFocus="true"
+        android:textColor="@color/black"
+        android:textSize="42sp" />
+
+    <TextView
+        android:id="@+id/lastname_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="120dp"
+        android:text="@string/lastname_prompt1"
+        android:textColor="@color/white2"
+        android:textSize="42sp" >
+    </TextView>
+
+    <EditText
+        android:id="@+id/lastname_input"
+        android:layout_width="400dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="400dp"
+        android:layout_marginTop="115dp"
+        android:background="@drawable/textfield1"
+        android:inputType="textCapSentences"
+        android:maxLength="20"
+        android:selectAllOnFocus="true"
+        android:textColor="@color/black"
+        android:textSize="42sp" />
+
+    <ImageButton
+        android:id="@+id/submit_button"
+        android:layout_width="240dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="850dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/submit_button"
+        android:contentDescription="@string/app_name"
+        android:textSize="38sp"
+        android:textStyle="bold" >
+    </ImageButton>
+
+    <com.naturecode.turtledove.utils.ResizableImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:contentDescription="@string/thumbnail1"
+        android:src="@drawable/footer" />
+
+</RelativeLayout>
